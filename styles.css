@@ -187,6 +187,27 @@ footer p {
     margin: 0;
     font-size: 0.9rem;
 }
+/* style.css */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.location {
+  background-color: #2196F3; /* Blue */
+}
+
+.location i {
+  margin-right: 5px;
+}
 
 /* Responsive Media Queries */
 @media (max-width: 768px) {

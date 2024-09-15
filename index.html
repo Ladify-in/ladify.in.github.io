@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta Tags for Responsiveness and Compatibility -->
     <meta charset="UTF-8">
@@ -12,9 +13,13 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
     <!-- Favicon (Optional) -->
     <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
 </head>
+
 <body>
     <!-- Header Section -->
     <header>
@@ -39,19 +44,24 @@
     <section id="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>Ladify is a premium clothing brand offering the latest in modern and elegant fashion. Our mission is to empower individuals through style and sophistication.</p>
+            <p>Ladify is a premium clothing brand offering the latest in modern and elegant fashion. Our mission is to
+                empower individuals through style and sophistication.</p>
         </div>
     </section>
 
     <!-- Map Section -->
-    <section id="location">
-        <div class="container">
-            <h2>Visit Us</h2>
-            <div class="map-container">
-                <a href="https://www.google.com/maps/place/Ladify/@28.5322117,77.3948274,15z" target="_blank">
-                    <img src="https://maps.googleapis.com/maps/api/staticmap?center=28.529588,77.3908284&zoom=15&size=600x300&markers=color:0x9141AC%7C28.529588,77.3908284&key=YOUR_GOOGLE_MAPS_API_KEY" alt="Ladify Location">
-                </a>
-            </div>
+    <section class="map" style="text-align: center;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+
+            <h2>Visit Our Store</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.382088284747!2d77.39128157464489!3d28.528232988810977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce923b21ebe7d%3A0xf415bfec0f2a828f!2sLadify!5e0!3m2!1sen!2sin!4v1726425609763!5m2!1sen!2sin"
+                width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <a href="https://maps.app.goo.gl/6sEa51Em2QVkxPjs7" class="button location" style="padding: 10px 20px;">
+                <i class="fas fa-directions"></i> Get Directions
+            </a>
         </div>
     </section>
 
@@ -80,4 +90,5 @@
     </footer>
 
 </body>
+
 </html>
