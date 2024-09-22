@@ -219,12 +219,24 @@ footer p {
     background-color: #FF9F80;
     /* Sunset Coral */
 }
+
 .location:hover {
     background-color: #8A2BE2;
     /* Electric Violet */
 }
+
 .location i {
     margin-right: 5px;
+}
+
+.posts-container {
+    display: flex;
+    overflow-x: auto;
+    /* Enable horizontal scrolling */
+    /* Optional styling */
+    gap: 10px;
+    /* Add spacing between items */
+    padding: 10px;
 }
 
 /* Responsive Media Queries */
