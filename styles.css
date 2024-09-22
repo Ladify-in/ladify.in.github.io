@@ -1,5 +1,5 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+@import url('https: //fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Reset Styles */
 * {
@@ -10,10 +10,12 @@
 
 /* Body Styles */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #F8F9FA;
     /* Cloud White */
-    color: #333333;
+    font-weight: 500;
+    color: #212529;
+    /* Updated color for better contrast */
 }
 
 /* Container */
@@ -30,7 +32,7 @@ header {
     height: 100vh;
     background-image: linear-gradient(135deg, #41B3A3 0%, #B4E27C 74%);
     /* Ocean Breeze to Zesty Lime */
-    color: white;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     position: relative;
@@ -114,7 +116,8 @@ section h2 {
 /* About Section */
 #about p {
     font-size: 1.1rem;
-    color: #555555;
+    color: #343a40;
+    /* Updated color for better contrast */
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.6;
@@ -216,7 +219,10 @@ footer p {
     background-color: #FF9F80;
     /* Sunset Coral */
 }
-
+.location:hover {
+    background-color: #8A2BE2;
+    /* Electric Violet */
+}
 .location i {
     margin-right: 5px;
 }
@@ -225,7 +231,6 @@ footer p {
 @media (max-width: 768px) {
     header {
         height: auto;
-        padding: 100px 0;
     }
 
     .hero-content h2 {
