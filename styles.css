@@ -11,7 +11,8 @@
 /* Body Styles */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #FFFFFF;
+    background-color: #F8F9FA;
+    /* Cloud White */
     color: #333333;
 }
 
@@ -27,7 +28,8 @@ body {
 /* Header Styles */
 header {
     height: 100vh;
-    background-image: linear-gradient(135deg, #6B0F1A 0%, #B91372 74%);
+    background-image: linear-gradient(135deg, #41B3A3 0%, #B4E27C 74%);
+    /* Ocean Breeze to Zesty Lime */
     color: white;
     display: flex;
     align-items: center;
@@ -87,7 +89,8 @@ nav .logo {
 
 .btn:hover {
     background-color: #FFFFFF;
-    color: #6B0F1A;
+    color: #41B3A3;
+    /* Ocean Breeze */
 }
 
 .whatsapp {
@@ -103,7 +106,8 @@ nav .logo {
 /* Section Titles */
 section h2 {
     font-size: 2.5rem;
-    color: #6B0F1A;
+    color: #41B3A3;
+    /* Ocean Breeze */
     margin-bottom: 20px;
     font-weight: 600;
 }
@@ -126,7 +130,8 @@ section h2 {
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
-    border: 5px solid #6B0F1A;
+    border: 5px solid #41B3A3;
+    /* Ocean Breeze */
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -146,7 +151,8 @@ section h2 {
 
 .social-links a {
     color: #FFFFFF;
-    background-color: #6B0F1A;
+    background-color: #FF9F80;
+    /* Sunset Coral */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -154,7 +160,8 @@ section h2 {
 }
 
 .social-links a:hover {
-    background-color: #B91372;
+    background-color: #8A2BE2;
+    /* Electric Violet */
 }
 
 .contact-info {
@@ -163,22 +170,26 @@ section h2 {
 
 .contact-btn {
     font-size: 1.2rem;
-    color: #6B0F1A;
+    color: #41B3A3;
+    /* Ocean Breeze */
     text-decoration: none;
-    border: 2px solid #6B0F1A;
+    border: 2px solid #41B3A3;
+    /* Ocean Breeze */
     padding: 10px 20px;
     border-radius: 30px;
     transition: background-color 0.3s ease;
 }
 
 .contact-btn:hover {
-    background-color: #6B0F1A;
+    background-color: #41B3A3;
+    /* Ocean Breeze */
     color: #FFFFFF;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #6B0F1A;
+    background-color: #41B3A3;
+    /* Ocean Breeze */
     color: #FFFFFF;
     padding: 20px 0;
 }
@@ -187,26 +198,28 @@ footer p {
     margin: 0;
     font-size: 0.9rem;
 }
-/* style.css */
 
+/* style.css */
 .button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50; /* Green */
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #B4E27C;
+    /* Zesty Lime */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .location {
-  background-color: #2196F3; /* Blue */
+    background-color: #FF9F80;
+    /* Sunset Coral */
 }
 
 .location i {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 /* Responsive Media Queries */
